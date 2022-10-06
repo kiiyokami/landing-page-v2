@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "name": "landing-page-v2",
+  "version": "1.0.0",
+  "description": "A newer version of the landing-page focused more on JS coding.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiiyokami/landing-page-v2.git"
+  },
+  "author": "Kiiyo (hiimkaze@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiiyokami/landing-page-v2/issues"
+  },
+  "homepage": "https://github.com/kiiyokami/landing-page-v2#readme"
+}
