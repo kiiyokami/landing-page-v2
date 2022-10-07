@@ -2,11 +2,13 @@
 <html lang="en">
 <meta charset="UTF-8">
 <head>
-<title>Kiiyo's Homepage</title>
+<title>Kiiyo's Userpage</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <link rel="icon" href="https://raw.githubusercontent.com/kiiyokami/landing-page-v2/main/assets/favico.png">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
 
 
 <style>
@@ -14,10 +16,11 @@ body, html {
   height: 100%;
   color: white;
   line-height: 1.8;
-  background-color: #282828;
+  background-color: #000000;
+  font-family: "Nunito Sans", sans-serif;
 }
 .bg-img{
-    background-image: url("https://raw.githubusercontent.com/kiiyokami/landing-page-v2/main/assets/natsume.jpg");
+    background-image: url("https://raw.githubusercontent.com/kiiyokami/landing-page-v2/main/assets/BG.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,6 +36,9 @@ body, html {
     background-attachment: scroll;
     min-height: 400px;
   }
+h1,h2,h3,h4,h5,h6{
+    font-family: "Oxygen", sans-serif;
+}
 }
 
 </style>
@@ -44,8 +50,20 @@ body, html {
         <span class="w3-center w3-padding-large w3-xlarge w3-wide w3-animate-opacity" style="background-color:rgba(0,0,0, 0.5);">Placeholder<span class="w3-hide-small"></span></span>
     </div>
 </div>
-<div>
-    <p>Welcome to My Webpage!</p>
+<div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-small">
+        <p><button style="width:30%" class="w3-btn w3-large w3-round-xlarge w3-padding-16 w3-blue-gray"><img src="https://img.icons8.com/external-those-icons-fill-those-icons/24/000000/external-Steam-social-media-those-icons-fill-those-icons.png"/> Steam</button></p>
+        <p><button style="width:30%" class="w3-btn w3-large w3-round-xlarge w3-padding-16 w3-orange"><img src="https://img.icons8.com/windows/25/000000/faceit.png"/> Faceit</button></p>
+        <p><button style="width:30%" class="w3-btn w3-large w3-round-xlarge w3-padding-16 w3-green"><img src="https://img.icons8.com/ios-glyphs/30/000000/spotify.png"/> Spotify</button></p>
+        <p><button style="width:30%" class="w3-btn w3-large w3-round-xlarge w3-padding-16 w3-pale-red"><img src="https://img.icons8.com/color/27/000000/osu.png"/> osu!</button></p>
+    </div>
+    <div class="w3-col m6 w3-padding-large w3-center">
+        <p><h2>Welcome to My Webpage!</h2></p>
+        <p><h4>You could contact me via Discord at: kiiyo#0001</h4></p>
+    </div>
 </div>
+<footer class="w3-center w3-blue-gray w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <h5><a target="_blank" href="https://icons8.com/icon/-30NV418noAF/osu">Icons by Icons8</a></h5>
+</footer>
 </body>
 </html>
